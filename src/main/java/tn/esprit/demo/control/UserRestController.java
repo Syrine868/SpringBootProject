@@ -49,7 +49,7 @@ public class UserRestController {
 	public void removeUser(@PathVariable("user-id") String userId) {
 		
 	 ius.deleteUser(userId);
-	System.out.println("deleted");
+	 
 	}
 	
 	@PutMapping("/modify-user")
